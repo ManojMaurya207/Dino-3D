@@ -1,0 +1,520 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1672479498542466, "dur": 23344057, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479498543968, "dur": 17368, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479498561581, "dur": 53321, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479498614928, "dur": 318050, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479498932980, "dur": 22943157, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479521876185, "dur": 10337, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479541909487, "dur": 3442426, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479541909777, "dur": 4914, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479541914693, "dur": 26524, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479541941219, "dur": 1224808, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479543166029, "dur": 2161302, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479545327333, "dur": 24580, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479545352715, "dur": 25, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1672479542900184, "dur": 248842, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672479542901242, "dur": 47182, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672479543130322, "dur": 5430, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672479543135756, "dur": 13263, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672479543136654, "dur": 11539, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672479543154796, "dur": 1655, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1672479543153800, "dur": 2678, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479545352827, "dur": 400, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1672479543209130, "dur":1517, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479543210656, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1672479543210710, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1672479543210724, "dur":272, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1672479543211053, "dur":795, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479543211848, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545296197, "dur":97, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545296294, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545296306, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545296307, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545296314, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545296316, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545296322, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545296323, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545296328, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545296350, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545296422, "dur":3510, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1672479543211561, "dur":335, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543211897, "dur":4857, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543216762, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672479543216765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543217858, "dur":308, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672479543218169, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672479543218232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543218384, "dur":5566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1672479543223952, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672479543224055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543224255, "dur":16989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672479543241280, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1672479543241382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543241708, "dur":54994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1672479543296740, "dur":13699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1672479543310443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543310449, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1672479543311437, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672479543311558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543311608, "dur":27369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1672479543339013, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1672479543339129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543339136, "dur":191623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1672479543530797, "dur":341522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1672479543872323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543872329, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1672479543873684, "dur":12703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543886391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543886414, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543887799, "dur":10900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543898703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543898709, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543899613, "dur":12331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543911946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543911950, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543912982, "dur":32943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543945929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543945935, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543947310, "dur":12615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543959929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543959934, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543960815, "dur":25321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543986140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479543986146, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479543987009, "dur":86380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544073393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544073399, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544074421, "dur":64964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544139389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544139395, "dur":1015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544140447, "dur":10849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544151300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544151306, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544152165, "dur":12571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544164740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544164746, "dur":805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544165585, "dur":11353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544176941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544176945, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544178046, "dur":31059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544209109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544209135, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544210216, "dur":24654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544234874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544234880, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544236111, "dur":26464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544262579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544262585, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544263886, "dur":12398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544276288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544276294, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544277663, "dur":14702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544292368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544292374, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544294173, "dur":13981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544308158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544308164, "dur":1287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544309487, "dur":21323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544330815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544330820, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544332379, "dur":17525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544349907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544349911, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544350756, "dur":34746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544385507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544385512, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544386760, "dur":29828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544416592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544416597, "dur":3643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544420274, "dur":15183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544435462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544435467, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544436317, "dur":56264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544492605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544492611, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544494227, "dur":163776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544658006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544658011, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544659167, "dur":102698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544761869, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544761875, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544763225, "dur":34389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544797618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544797624, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544798810, "dur":125483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544924297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479544924303, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479544925719, "dur":76808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479545002531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479545002537, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479545003510, "dur":288673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479545292206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1672479545292212, "dur":3926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1672479545296174, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1672479545296176, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479543211661, "dur":260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479543211921, "dur":4894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479543216815, "dur":13959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1672479543230778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479543230785, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1672479543231582, "dur":21806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1672479543253395, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479543253405, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1672479543254718, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1672479543254817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479543254871, "dur":41843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1672479543296750, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1672479543296855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479543296860, "dur":222865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1672479543519772, "dur":838072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544357848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544357853, "dur":17425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544375317, "dur":11471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544386791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544386812, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544388512, "dur":89952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544478468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544478474, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544479732, "dur":48136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544527872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544527877, "dur":14752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544542718, "dur":706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544543428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544543433, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544544313, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544544967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544544972, "dur":11231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544556242, "dur":14401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544570647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544570652, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544571935, "dur":1397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544573336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544573341, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544574717, "dur":20317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544595053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544595059, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544595857, "dur":38419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544634280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544634285, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544635529, "dur":68084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544703616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544703622, "dur":884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544704539, "dur":52580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544757123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544757128, "dur":1017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544758177, "dur":70649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544828831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544828836, "dur":1521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544830390, "dur":131348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544961742, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479544961748, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479544964011, "dur":73880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479545037895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479545037901, "dur":1024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479545038958, "dur":21701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479545060663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479545060668, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1672479545061644, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1672479545061791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479545062400, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1672479545063199, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1672479545063231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479545063266, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1672479545064186, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1672479545064218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479545064248, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1672479545068510, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672479545068543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479545068547, "dur":4117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672479545072699, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1672479545072730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479545072735, "dur":19308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1672479545092076, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672479545092109, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479545092113, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672479545094040, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1672479545094072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479545094076, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1672479545095056, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672479545095088, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479545095091, "dur":8256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1672479545103387, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1672479545103543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1672479545103547, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1672479545104547, "dur":191654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543211820, "dur":178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543211999, "dur":4790, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543216790, "dur":31839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1672479543248633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543248857, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1672479543249695, "dur":46365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1672479543296064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543296071, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1672479543296903, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1672479543297005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543297302, "dur":9010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1672479543306347, "dur":24120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1672479543330471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543330478, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1672479543331284, "dur":28760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1672479543360049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543360055, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1672479543360869, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1672479543360961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543360965, "dur":54236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1672479543415244, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1672479543415458, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543415463, "dur":58940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1672479543474441, "dur":63483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543537928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543538333, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543540435, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D.exe" }}
+,{ "pid":12345, "tid":3, "ts":1672479543540924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543540928, "dur":32723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D.exe" }}
+,{ "pid":12345, "tid":3, "ts":1672479543573685, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1672479543573783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543573971, "dur":47969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1672479543621981, "dur":57647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543679632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543679843, "dur":783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543680659, "dur":13009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543693672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543693764, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543694698, "dur":13603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543708305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543708310, "dur":1582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543709925, "dur":22346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543732288, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543732307, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543733230, "dur":22274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543755508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543755514, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543756479, "dur":22320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543778803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543778809, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543779875, "dur":11231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543791110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543791116, "dur":1016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543792167, "dur":19667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543811839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543811844, "dur":829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543812710, "dur":13113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543825828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543825833, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543826925, "dur":57462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543884391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543884397, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543885293, "dur":14299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543899595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543899600, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543900461, "dur":11453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543911918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543911938, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543913034, "dur":41695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543954733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543954739, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543955760, "dur":20450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543976214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479543976219, "dur":2332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479543978588, "dur":110970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544089562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544089568, "dur":1399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544091002, "dur":10933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544101939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544101944, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544103443, "dur":35941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544139389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544139395, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544140491, "dur":11848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544152341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544152347, "dur":1090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544153475, "dur":23440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544176920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544176927, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544177963, "dur":22153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544200121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544200126, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544201073, "dur":30622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544231700, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544231706, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544233132, "dur":12191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544245327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544245332, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544248546, "dur":60967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544309515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544309520, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544311907, "dur":16400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544328312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544328338, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544329377, "dur":98668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544428050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544428055, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544429723, "dur":64953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544494678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544494684, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544495712, "dur":1294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544497011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544497016, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544498044, "dur":31135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544529182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544529187, "dur":14281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544543504, "dur":35218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544578726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544578732, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544579762, "dur":14041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544593808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544593814, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544594774, "dur":176678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544771454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544771458, "dur":15821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544787315, "dur":27939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544815258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544815264, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544818404, "dur":163128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544981557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479544981563, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479544984159, "dur":80677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479545064839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479545064844, "dur":15519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1672479545080398, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1672479545080431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479545080435, "dur":7335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1672479545087805, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1672479545087836, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479545087840, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1672479545088836, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1672479545088993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479545088997, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1672479545089731, "dur":4686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1672479545094420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479545094441, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1672479545095209, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1672479545095243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479545095246, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1672479545096247, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1672479545096279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479545096284, "dur":4543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1672479545100861, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1672479545100892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479545100896, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1672479545101672, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1672479545101705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479545101709, "dur":814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1672479545102556, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1672479545102586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1672479545102590, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1672479545103440, "dur":192771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479543211997, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479543211998, "dur":4816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479543216814, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1672479543217009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479543218423, "dur":17445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1672479543235903, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1672479543236039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479543236045, "dur":282151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1672479543518256, "dur":485232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544003492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544003574, "dur":7892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544011502, "dur":14700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544026206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544026211, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544027312, "dur":23726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544051042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544051048, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544051969, "dur":27953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544079926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544079932, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544081014, "dur":23899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544104920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544104926, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544105893, "dur":20815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544126713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544126719, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544127657, "dur":25886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544153546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544153551, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544157019, "dur":12406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544169430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544169436, "dur":5208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544174681, "dur":18901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544193586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544193592, "dur":3587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544197214, "dur":15425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544212643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544212649, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544213691, "dur":16971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544230666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544230672, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544232664, "dur":18282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544250950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544250956, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544252289, "dur":13666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544265959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544265965, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544269370, "dur":13002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544282376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544282382, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544283239, "dur":35079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544318322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544318328, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544319357, "dur":12755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544332159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544332165, "dur":859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544333057, "dur":15716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544348778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544348783, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544349622, "dur":16991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544366617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544366624, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544367980, "dur":24192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544392176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544392182, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544393608, "dur":23312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544416923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544416927, "dur":5853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544422814, "dur":32203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544455021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544455027, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544456251, "dur":42184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544498438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544498443, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544499366, "dur":1910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544501279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544501285, "dur":40610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544541931, "dur":24172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544566107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544566113, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544567302, "dur":21207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544588514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544588520, "dur":3714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544592268, "dur":63237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544655509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544655515, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544657026, "dur":114202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544771232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544771238, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544772583, "dur":67266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544839854, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544839862, "dur":34823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544874719, "dur":25195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544899918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544899924, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544900842, "dur":91209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544992055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479544992060, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479544993860, "dur":30716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479545024580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479545024585, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479545025787, "dur":157979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles gameFYCS/Chrome Dino 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479545183770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1672479545183776, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"gameFYCS/Chrome Dino 3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1672479545184987, "dur":111211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1672479545302472, "dur":1949, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1672479545353292, "dur": 757, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1672479545352702, "dur": 1381, "ph": "X", "name": "Write chrome-trace events", "args": {} },
